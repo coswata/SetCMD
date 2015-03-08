@@ -1,5 +1,7 @@
 #!/bin/sh
-#Install ssh and set iptables
+#SSHのインストールとiptablesの設定を一度に実行
+#公開鍵の設定が必要なので、そちらは手動で行う
+
 if [ $# -ne 1 ]; then
     echo "Input SSH Port number"
     read port

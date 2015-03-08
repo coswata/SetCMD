@@ -1,5 +1,6 @@
 #!/bin/sh
-#Install Webmin
+#Webminのインストールのみ実行
+#Port 10000の解放は手動で行ってね
 
 sudo apt-get -y install apt-show-versions libapt-pkg-perl libauthen-pam-perl libio-pty-perl libnet-ssleay-perl
 

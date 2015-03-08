@@ -1,4 +1,5 @@
 #!/bin/sh
+#Install ssh and set iptables
 if [ $# -ne 1 ]; then
     echo "Input SSH Port number"
     read port

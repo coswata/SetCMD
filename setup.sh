@@ -45,3 +45,5 @@ sudo iptables -A FORWARD -j DROP
 sudo iptables-save > iptables_settings.txt
 sudo iptables-restore iptables_settings.txt
 sudo apt-get -y install iptables-persistent
+
+sudo passwd -l root
